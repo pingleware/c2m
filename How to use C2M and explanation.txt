@@ -1,0 +1,61 @@
+﻿How to use C2M and Description
+
+--------------------------------
+Description
+
+There is 1 administrator (admin)
+Many managers, unlimited
+Many branches, unlimited
+Many employees, unlimited
+
+Duties
+- The administrator (admin) is responsible for creating an account for the manager, selecting the system used according to the business operation (POS selling products in front of the store, FOOD restaurants)
+- The manager is responsible for creating branches and creating accounts for employees, including specifying which branches the employees will be assigned to, viewing stock or food items of each branch, viewing reports of branches and employees
+- Employees are responsible for performing tasks, adding items, making lists, viewing reports of the branches they are assigned to
+
+POS system for selling products in front of the store (used with selling almost all types of products)
+- Setting discounts
+- Setting product prices for specific customers, individuals
+- Email Marketing Sending emails to existing customer members in the system
+- Customers and contacts Managing customer lists and adding contacts
+- Product inventory Adding product items, managing the manufacturer or owner of the product, product categories, importing the number of products, viewing products in stock, and online product list displaying page Can be viewed online by customers (Only online server)
+- Image sales screen, can be used with tablets and iPads, can easily press products to sell, can use a barcode scanner, can select customer names
+- List sales screen, can conveniently use a barcode scanner
+- Return products and refunds (If you want to return and exchange products, you can return and sell new products)
+- Print lists or download excel
+
+Food system, restaurants (used with almost every restaurant)
+- Create a list of food types
+- Arrange tables, numbers, seats
+- Make lists, receive customers, order food, take care, check bills
+- View branch sales reports
+- Online food list page for customers to enter online lists via the website
+- Print lists or download excel
+
+--------------------------------
+
+Usage
+
+1. Administrator (admin) logs in http://localhost/c2m/admin/login
+
+(User Name: admin)
+(Password: admin)
+
+- Add managers, select systems related to the current store Selling products (POS selling at the store), selling food (Food Restaurant)
+- Remember the email and password of the manager to enter the system for the manager
+- If you have multiple businesses, you can add unlimited managers
+
+2. Manager, log in (top right corner) http://localhost/c2m/storemanager/login
+- Add branches
+- Add branch employees
+- View various items of the branch
+- View sales reports of branches and employees
+
+3. Employees, log in (top right corner) http://localhost/c2mp/login
+- Sell products, sell food, take care of customers
+- Create a list of products and food
+- Set up various usage settings
+- View reports of the branches you are stationed at
+- Print receipts for customers
+
+------------------------------------

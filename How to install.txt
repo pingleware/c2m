@@ -1,0 +1,45 @@
+﻿fb: https://www.facebook.com/cus2merpage
+
+Watch the video demonstrating the installation and initial use
+https://www.youtube.com/watch?v=eED4JpPPLuU
+
+--------------------
+System requirements
+- PHP 7
+- MySQL Database
+
+--------------------
+
+Installation method
+1. Install Appserv to simulate a server in Windows
+- Download the program https://www.appserv.org/th/
+- user: root
+- password: 12345678
+
+2. Put the c2m folder in C:\Appserv\www\
+- C:\Appserv\www\c2m
+
+3. Add a database
+- Open http://localhost/phpmyadmin
+username: root
+password: 12345678
+- Click New, enter the c2m database name
+- Click the c2m name
+- Click the top menu import
+- Select the c2m.sql file
+- Click go (there is a success message, if there is an error, notify support https://www.facebook.com/cus2merpage/)
+
+4. Open
+http://localhost/c2m
+Put the c2m-desktop.html file on the Desktop, you can click to access the system directly
+
+--------------------
+***
+Edit various values In case of installing the server yourself, such as database and url
+- Database, edit the file application\config\database.php
+- URL, edit the file application\core\MY_Controller.php
+
+--------------------
+
+Contact us C2M developer
+https://www.facebook.com/cus2merpage
